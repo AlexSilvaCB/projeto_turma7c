@@ -29,6 +29,7 @@ nav.navbar-transparente {
 .navbar-light .navbar-toggler {
     color: rgba(255,255,255,.5);
     border-color: rgba(255,255,255,0.5);
+	margin-right: 15px
 }
 
 .divisor {
@@ -36,6 +37,7 @@ nav.navbar-transparente {
 	background: white;
 	margin: 12px 15px;
 }
+
 
 /* Capa
 -----------------------------*/
@@ -94,7 +96,7 @@ nav.navbar-transparente {
 	color: #7c25f8;
 }
 
-.h2Class, .Prelato {
+small,.h2Class, .Prelato {
 	color: white;
 }
 
@@ -128,9 +130,10 @@ footer h4 {
 	text-transform: uppercase;
 }
 
-footer .navbar-nav a {
+footer .navbar-nav p {
 	color: white;
 	font-size: 0.8em;
+	margin: 0;
 }
 
 footer .navbar-nav a:hover {
@@ -173,14 +176,14 @@ h3 {
 /*configurações pages*/
 
 .cardXY{
-	width: 85%;
+	width: 60%;
 	margin: 0 auto;
 	margin-bottom: 10px;
 	transition: 0.5s;
 }
 
 .cardXY:hover{
-	width: 87%;
+	width: 61%;
 	box-shadow: 0px 0px 30px #fff;
 	transition: 0.5s;
 }
@@ -194,6 +197,10 @@ h3 {
 	box-sizing:border-box;
 }
 
+.formZ button{
+	margin-left: 23%;
+}
+
 .bodyC{
 	background: #F0E68C;
 }
@@ -205,6 +212,14 @@ h3 {
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+	.cardXY{
+		width: 80%;
+	}
+	
+	.cardXY:hover{
+		width: 81%;
+	}
+
 	.btn-custom {
 		margin: 10px 15px;
 		font-size: 1em;
@@ -216,8 +231,21 @@ h3 {
 		-ms-transform: rotate(0deg); /* IE 9 */
 		-webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
 		transform: rotate(0deg);
-		padding-left: 80px;
+		padding-left: 50px;
 	}
+
+	small,.h2Class, li{
+		margin-left: 15px;
+	}
+
+	.formZ{
+		width: 80%;
+	}
+
+	.formZ button{
+		margin-left: 1%;
+	}
+
 
 }
 
